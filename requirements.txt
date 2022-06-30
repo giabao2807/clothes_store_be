@@ -12,6 +12,6 @@ djangorestframework-simplejwt==5.0.0
 pyjwt==2.3.0
 django-cors-headers==3.10.0
 cloudinary==1.28.0
-
 django-oauth-toolkit==1.5.0
 django-oauth2-provider==0.2.6.1
+stripe==3.4.0

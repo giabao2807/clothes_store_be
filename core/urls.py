@@ -26,5 +26,6 @@ urlpatterns = [
     url(r"api/v1/base/", include('api_base.urls')),
     url(r"api/v1/order/", include('api_order.urls')),
     url(r"api/v1/products/", include('api_product.urls')),
+    path('api/v1/', include("djoser.urls.authtoken")),
     path('api/v1/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

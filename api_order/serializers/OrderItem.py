@@ -15,6 +15,7 @@ class MyOrderItemSerializer(serializers.ModelSerializer):
             "quantity",
         )
 
+
 class OrderItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = OrderItem
